@@ -1,0 +1,10 @@
+<div>
+
+  <h1 class="font-bold text-2xl mb-3">编辑任务</h1>
+
+  <turbo-frame id="<%= dom_id @task%>">
+    <div id="<%= dom_id @task %>">
+      <%= render "form", task: @task %>
+    </div>
+  </turbo-frame>
+</div>
